@@ -9,7 +9,7 @@
 - PostgreSQL
 - Docker
 
-## Cloud Concepts   ← ✅ 放這裡（重點）
+## Cloud Concepts   
 - Containerized using Docker
 - Service-based architecture
 - Stateless API design
