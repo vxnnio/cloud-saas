@@ -1,28 +1,25 @@
 # Cloud SaaS System
 
 ## Overview
-This project is a simple Cloud-based SaaS system built with modern backend and frontend technologies.
-
-It demonstrates:
-- RESTful API design
-- JWT Authentication
-- Database integration
-- Docker containerization
+這是一個模擬雲端 SaaS 系統的專案...
 
 ## Tech Stack
-- Backend: FastAPI
-- Frontend: React (Vite)
-- Database: PostgreSQL
-- Deployment: Docker / Docker Compose
+- FastAPI
+- React
+- PostgreSQL
+- Docker
+
+## Cloud Concepts   ← ✅ 放這裡（重點）
+- Containerized using Docker
+- Service-based architecture
+- Stateless API design
 
 ## Features
-- User authentication (JWT)
-- Task management (CRUD)
-- API-based architecture
+- JWT Authentication
+- Task CRUD API
 
 ## Architecture
-Client (React) → FastAPI → PostgreSQL
+Client → FastAPI → PostgreSQL
 
 ## Getting Started
-```bash
 docker-compose up --build
