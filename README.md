@@ -9,10 +9,10 @@
 - PostgreSQL
 - Docker
 
-## Cloud Concepts   
-- Containerized using Docker
-- Service-based architecture
-- Stateless API design
+## Cloud Concepts
+- Containerized deployment using Docker
+- Service-oriented architecture
+- Stateless API design for scalability
 
 ## Features
 - JWT Authentication
