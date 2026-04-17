@@ -1,0 +1,25 @@
+services:
+  db:
+    image: postgres:16
+    container_name: cloud_saas_db
+    environment:
+      POSTGRES_USER: app
+      POSTGRES_PASSWORD: app1234
+      POSTGRES_DB: cloud_saas
+    ports:
+      - "5432:5432"
+    volumes:
+      - cloud_saas_db_data:/var/lib/postgresql/data
+
+  backend:
+    build: ./backend
+    container_name: cloud_saas_backend
+    env_file:
+      - ./backend/.env
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+
+volumes:
+  cloud_saas_db_data:
